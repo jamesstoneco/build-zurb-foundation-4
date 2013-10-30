@@ -24,5 +24,7 @@ npm install clean-css
 
 
 ## Usage:
+```
 rake
 rake build
+```
