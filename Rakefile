@@ -45,7 +45,7 @@ end
 task :default => [:build]
 
 task :build do
-  sh "rm -r #{BUILD_DIR}"
+  system "rm -r #{BUILD_DIR}"
   puts "creating #{BUILD_DIR}/ directory"
   sh "mkdir #{BUILD_DIR}"
   sh "mkdir #{BUILD_DIR}/#{JS_DIR}"
